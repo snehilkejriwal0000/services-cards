@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services Page</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f2f6fc; }
+    header { background:#2a9d8f; color:white; padding:20px; text-align:center; }
+    header h1 { margin:0; }
+    .services { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:20px; padding:40px 20px; max-width:1000px; margin:auto; }
+    .service-card { background:#e76f51; color:white; padding:20px; border-radius:8px; text-align:center; transition: transform 0.3s, box-shadow 0.3s; }
+    .service-card:hover { transform: translateY(-5px); box-shadow: 0 6px 15px rgba(0,0,0,0.3); }
+    footer { background:#2a9d8f; color:white; text-align:center; padding:20px; margin-top:30px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Our Services</h1>
+  </header>
+
+  <section class="services">
+    <div class="service-card">
+      <h3>Web Design</h3>
+      <p>Creating responsive and beautiful websites.</p>
+    </div>
+    <div class="service-card">
+      <h3>App Development</h3>
+      <p>Developing mobile apps with great UX.</p>
+    </div>
+    <div class="service-card">
+      <h3>SEO Optimization</h3>
+      <p>Boost your website's visibility online.</p>
+    </div>
+    <div class="service-card">
+      <h3>Content Writing</h3>
+      <p>Engaging content that attracts users.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Contact us at services@example.com</p>
+  </footer>
+</body>
+</html>
